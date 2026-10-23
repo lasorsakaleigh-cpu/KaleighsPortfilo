@@ -419,147 +419,130 @@ if (reversed == null) { reversed = false; }
 	this.actionFrames = [0,1,2,3,4,5,6,7,8,9,10,11];
 	// timeline functions:
 	this.frame_0 = function() {
-		/* import flash.events.MouseEvent;
+		this.stop();
 		
-		stop();
+		this.nextbtn.removeAllEventListeners("click");
 		
-		nextbtn.addEventListener(MouseEvent.CLICK, nextscene);
-		
-		function nextscene(Event:MouseEvent)
-		{
-			gotoAndPlay(2);
-		}*/
+		this.nextbtn.addEventListener("click", function() {
+		    this.gotoAndPlay(2);
+		}.bind(this));
 	}
 	this.frame_1 = function() {
-		/* stop();
+		this.stop();
 		
-		cookiebtn.addEventListener(MouseEvent.CLICK, giveCookie);
+		this.cookiebtn.removeAllEventListeners("click");
 		
-		function giveCookie(Event:MouseEvent)
-		{
-			gotoAndPlay(3);
-		}*/
+		this.cookiebtn.addEventListener("click", function() {
+		    this.gotoAndPlay(3);
+		}.bind(this));
 	}
 	this.frame_2 = function() {
-		/* stop();
+		this.stop();
 		
-		doorbtn.addEventListener(MouseEvent.CLICK, opendoor);
+		this.doorbtn.removeAllEventListeners("click");
 		
-		function opendoor(Event:MouseEvent)
-		{
-			gotoAndPlay(4);
-		}*/
+		this.doorbtn.addEventListener("click", function() {
+		    this.gotoAndPlay(4);
+		}.bind(this));
 	}
 	this.frame_3 = function() {
-		/* stop();
+		this.stop();
 		
-		fridgebtn.addEventListener(MouseEvent.CLICK, openfridge);
+		this.fridgebtn.removeAllEventListeners("click");
 		
-		function openfridge(Event:MouseEvent)
-		{
-			gotoAndPlay(5);
-		}*/
+		this.fridgebtn.addEventListener("click", function() {
+		    this.gotoAndPlay(5);
+		}.bind(this));
 	}
 	this.frame_4 = function() {
-		/* stop();
+		this.stop();
 		
-		milkbtn.addEventListener(MouseEvent.CLICK, giveMilk);
+		this.milkbtn.removeAllEventListeners("click");
 		
-		function giveMilk(Event:MouseEvent)
-		{
-			gotoAndPlay(6);
-		}*/
+		this.milkbtn.addEventListener("click", function() {
+		    this.gotoAndPlay(6);
+		}.bind(this));
 	}
 	this.frame_5 = function() {
-		/* stop();
+		this.stop();
 		
-		nextbtn.addEventListener(MouseEvent.CLICK, gotonext);
+		this.nextbtn.removeAllEventListeners("click");
 		
-		function gotonext(Event:MouseEvent)
-		{
-			gotoAndPlay(7);
-		}*/
+		this.nextbtn.addEventListener("click", function() {
+		    this.gotoAndPlay(7);
+		}.bind(this));
 	}
 	this.frame_6 = function() {
-		/* stop();
+		this.stop();
 		
-		cabinet1.addEventListener(MouseEvent.CLICK, cabinetopen1);
+		this.cabinet1.removeAllEventListeners("click");
+		this.cabinet2.removeAllEventListeners("click");
+		this.cabinet3.removeAllEventListeners("click");
 		
-		function cabinetopen1(Event:MouseEvent)
-		{
-			gotoAndPlay(8);
-		}
+		this.cabinet1.addEventListener("click", function() {
+		    this.gotoAndPlay(8);
+		}.bind(this));
 		
-		cabinet2.addEventListener(MouseEvent.CLICK, cabinetopen2);
+		this.cabinet2.addEventListener("click", function() {
+		    this.gotoAndPlay(9);
+		}.bind(this));
 		
-		function cabinetopen2(Event:MouseEvent)
-		{
-			gotoAndPlay(9);
-		}
-		
-		cabinet3.addEventListener(MouseEvent.CLICK, cabinetopen3);
-		
-		function cabinetopen3(Event:MouseEvent)
-		{
-			gotoAndPlay(10);
-		}*/
+		this.cabinet3.addEventListener("click", function() {
+		    this.gotoAndPlay(10);
+		}.bind(this));
 	}
 	this.frame_7 = function() {
-		/* stop();
+		this.stop();
 		
-		backbtn.addEventListener(MouseEvent.CLICK, goBack);
+		this.backbtn.removeAllEventListeners("click");
 		
-		function goBack(Event:MouseEvent)
-		{
-			gotoAndPlay(7);
-		}*/
+		this.backbtn.addEventListener("click", function() {
+		    this.gotoAndPlay(7);
+		}.bind(this));
 	}
 	this.frame_8 = function() {
-		/* stop();
+		this.stop();
 		
-		backbtn.addEventListener(MouseEvent.CLICK, gotoBack);
+		this.backbtn.removeAllEventListeners("click");
 		
-		function gotoBack(Event:MouseEvent)
-		{
-			gotoAndPlay(7);
-		}
+		this.backbtn.addEventListener("click", function() {
+		    this.gotoAndPlay(7);
+		}.bind(this));
 		
-		strawbtn.addEventListener(MouseEvent.CLICK, giveStraw);
+		this.stop();
 		
-		function giveStraw(Event:MouseEvent)
-		{
-			gotoAndPlay(11);
-		}*/
+		this.strawbtn.removeAllEventListeners("click");
+		
+		this.strawbtn.addEventListener("click", function() {
+		    this.gotoAndPlay(11);
+		}.bind(this));
 	}
 	this.frame_9 = function() {
-		/* stop();
+		this.stop();
 		
-		backbtn.addEventListener(MouseEvent.CLICK, back);
+		this.backbtn.removeAllEventListeners("click");
 		
-		function back(Event:MouseEvent)
-		{
-			gotoAndPlay(7);
-		}*/
+		this.backbtn.addEventListener("click", function() {
+		    this.gotoAndPlay(7);
+		}.bind(this));
 	}
 	this.frame_10 = function() {
-		/* stop();
+		this.stop();
 		
-		milkstrawbtn.addEventListener(MouseEvent.CLICK, theend);
+		this.milkstrawbtn.removeAllEventListeners("click");
 		
-		function theend(Event:MouseEvent)
-		{
-			gotoAndPlay(12);
-		}*/
+		this.milkstrawbtn.addEventListener("click", function() {
+		    this.gotoAndPlay(12);
+		}.bind(this));
 	}
 	this.frame_11 = function() {
-		/* stop();
+		this.stop();
 		
-		startoverbtn.addEventListener(MouseEvent.CLICK, startover);
+		this.startoverbtn.removeAllEventListeners("click");
 		
-		function startover(Event:MouseEvent)
-		{
-			gotoAndPlay(1);
-		}*/
+		this.startoverbtn.addEventListener("click", function() {
+		    this.gotoAndPlay(1);
+		}.bind(this));
 	}
 
 	// actions tween:
