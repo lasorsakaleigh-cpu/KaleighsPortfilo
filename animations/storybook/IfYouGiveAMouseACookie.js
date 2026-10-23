@@ -424,7 +424,7 @@ if (reversed == null) { reversed = false; }
 		this.nextbtn.removeAllEventListeners("click");
 		
 		this.nextbtn.addEventListener("click", function() {
-		    this.gotoAndPlay(2);
+		    this.gotoAndPlay(1);
 		}.bind(this));
 	}
 	this.frame_1 = function() {
@@ -433,7 +433,7 @@ if (reversed == null) { reversed = false; }
 		this.cookiebtn.removeAllEventListeners("click");
 		
 		this.cookiebtn.addEventListener("click", function() {
-		    this.gotoAndPlay(3);
+		    this.gotoAndPlay(2);
 		}.bind(this));
 	}
 	this.frame_2 = function() {
@@ -442,7 +442,7 @@ if (reversed == null) { reversed = false; }
 		this.doorbtn.removeAllEventListeners("click");
 		
 		this.doorbtn.addEventListener("click", function() {
-		    this.gotoAndPlay(4);
+		    this.gotoAndPlay(3);
 		}.bind(this));
 	}
 	this.frame_3 = function() {
@@ -451,7 +451,7 @@ if (reversed == null) { reversed = false; }
 		this.fridgebtn.removeAllEventListeners("click");
 		
 		this.fridgebtn.addEventListener("click", function() {
-		    this.gotoAndPlay(5);
+		    this.gotoAndPlay(4);
 		}.bind(this));
 	}
 	this.frame_4 = function() {
@@ -460,7 +460,7 @@ if (reversed == null) { reversed = false; }
 		this.milkbtn.removeAllEventListeners("click");
 		
 		this.milkbtn.addEventListener("click", function() {
-		    this.gotoAndPlay(6);
+		    this.gotoAndPlay(5);
 		}.bind(this));
 	}
 	this.frame_5 = function() {
@@ -469,7 +469,7 @@ if (reversed == null) { reversed = false; }
 		this.nextbtn.removeAllEventListeners("click");
 		
 		this.nextbtn.addEventListener("click", function() {
-		    this.gotoAndPlay(7);
+		    this.gotoAndPlay(6);
 		}.bind(this));
 	}
 	this.frame_6 = function() {
@@ -480,15 +480,15 @@ if (reversed == null) { reversed = false; }
 		this.cabinet3.removeAllEventListeners("click");
 		
 		this.cabinet1.addEventListener("click", function() {
-		    this.gotoAndPlay(8);
+		    this.gotoAndPlay(7);
 		}.bind(this));
 		
 		this.cabinet2.addEventListener("click", function() {
-		    this.gotoAndPlay(9);
+		    this.gotoAndPlay(8);
 		}.bind(this));
 		
 		this.cabinet3.addEventListener("click", function() {
-		    this.gotoAndPlay(10);
+		    this.gotoAndPlay(9);
 		}.bind(this));
 	}
 	this.frame_7 = function() {
@@ -497,7 +497,7 @@ if (reversed == null) { reversed = false; }
 		this.backbtn.removeAllEventListeners("click");
 		
 		this.backbtn.addEventListener("click", function() {
-		    this.gotoAndPlay(7);
+		    this.gotoAndPlay(6);
 		}.bind(this));
 	}
 	this.frame_8 = function() {
@@ -506,7 +506,7 @@ if (reversed == null) { reversed = false; }
 		this.backbtn.removeAllEventListeners("click");
 		
 		this.backbtn.addEventListener("click", function() {
-		    this.gotoAndPlay(7);
+		    this.gotoAndPlay(6);
 		}.bind(this));
 		
 		this.stop();
@@ -514,7 +514,7 @@ if (reversed == null) { reversed = false; }
 		this.strawbtn.removeAllEventListeners("click");
 		
 		this.strawbtn.addEventListener("click", function() {
-		    this.gotoAndPlay(11);
+		    this.gotoAndPlay(10);
 		}.bind(this));
 	}
 	this.frame_9 = function() {
@@ -523,7 +523,7 @@ if (reversed == null) { reversed = false; }
 		this.backbtn.removeAllEventListeners("click");
 		
 		this.backbtn.addEventListener("click", function() {
-		    this.gotoAndPlay(7);
+		    this.gotoAndPlay(6);
 		}.bind(this));
 	}
 	this.frame_10 = function() {
@@ -532,7 +532,7 @@ if (reversed == null) { reversed = false; }
 		this.milkstrawbtn.removeAllEventListeners("click");
 		
 		this.milkstrawbtn.addEventListener("click", function() {
-		    this.gotoAndPlay(12);
+		    this.gotoAndPlay(11);
 		}.bind(this));
 	}
 	this.frame_11 = function() {
@@ -541,7 +541,7 @@ if (reversed == null) { reversed = false; }
 		this.startoverbtn.removeAllEventListeners("click");
 		
 		this.startoverbtn.addEventListener("click", function() {
-		    this.gotoAndPlay(1);
+		    this.gotoAndPlay(0);
 		}.bind(this));
 	}
 
