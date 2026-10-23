@@ -1,0 +1,51 @@
+{"frames": {
+
+"cabinet":
+{
+	"frame": {"x":445,"y":0,"w":244,"h":288},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":288},
+	"sourceSize": {"w":244,"h":288}
+},
+"cabinetopen":
+{
+	"frame": {"x":0,"y":237,"w":244,"h":288},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":288},
+	"sourceSize": {"w":244,"h":288}
+},
+"milk2":
+{
+	"frame": {"x":246,"y":237,"w":151,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":151,"h":176},
+	"sourceSize": {"w":151,"h":176}
+},
+"milk3":
+{
+	"frame": {"x":399,"y":290,"w":151,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":151,"h":176},
+	"sourceSize": {"w":151,"h":176}
+},
+"textbox":
+{
+	"frame": {"x":0,"y":0,"w":443,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":443,"h":235},
+	"sourceSize": {"w":443,"h":235}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "21.0.0.35450",
+	"image": "project2.com416_atlas_1.png",
+	"format": "undefined",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}
